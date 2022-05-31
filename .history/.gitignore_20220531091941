@@ -31,7 +31,6 @@
 
 # "temporary" build files
 /target
-
 **/node_modules
 **/.gradle
 .idea

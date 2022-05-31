@@ -31,10 +31,3 @@
 
 # "temporary" build files
 /target
-
-**/node_modules
-**/.gradle
-.idea
-*.iml
-**/build
-.DS_Store
