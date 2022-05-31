@@ -1,7 +1,15 @@
 # Grails as Docker Container
 
-To build the guide run the following:
+Para construir o guia, faça o seguinte:
 
     ./gradlew publishGuide
 
-The generated documentation should be at build/docs/index.html.
+A documentação gerada deve estar em build/docs/index.html.
+
+Para construir o guia, faça o seguinte:
+
+    ./gradlew publishImage
+
+Para construir o guia, faça o seguinte:
+
+    docker run -p 8080:8080 grails-sample/complete:0.1
